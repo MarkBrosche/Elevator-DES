@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="Distribution">
+    <Position X="13" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQABAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Users\Mark\Downloads\DES PA5 Answer - updated (1)\DES PA5 Answer - updated\DES PA5 Answer\DES PA5 Answer\Distribution.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exponential">
+    <Position X="11.75" Y="3" Width="1.5" />
+    <InheritanceLine Type="Distribution" FixedToPoint="true">
+      <Path>
+        <Point X="13.75" Y="2.497" />
+        <Point X="13.75" Y="2.625" />
+        <Point X="12.5" Y="2.625" />
+        <Point X="12.5" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>D:\Users\Mark\Downloads\DES PA5 Answer - updated (1)\DES PA5 Answer - updated\DES PA5 Answer\DES PA5 Answer\Distribution.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Poisson">
+    <Position X="14.25" Y="3" Width="1.5" />
+    <InheritanceLine Type="Distribution" FixedToPoint="true">
+      <Path>
+        <Point X="13.75" Y="2.497" />
+        <Point X="13.75" Y="2.625" />
+        <Point X="14.938" Y="2.625" />
+        <Point X="14.938" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAACAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>D:\Users\Mark\Downloads\DES PA5 Answer - updated (1)\DES PA5 Answer - updated\DES PA5 Answer\DES PA5 Answer\Distribution.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entity">
+    <Position X="9.5" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EIAAAAAAEAAAIAAAAABAgEAAQAAAAACAAAAAAAIAABA=</HashCode>
+      <FileName>D:\Users\Mark\Downloads\DES PA5 Answer - updated (1)\DES PA5 Answer - updated\DES PA5 Answer\DES PA5 Answer\Entity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Event">
+    <Position X="9.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Users\Mark\Downloads\DES PA5 Answer - updated (1)\DES PA5 Answer - updated\DES PA5 Answer\DES PA5 Answer\Simulation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimObj">
+    <Position X="1.25" Y="0.75" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="SimObj::EventSet">
+        <Compartments>
+          <Compartment Name="Nested Types" Collapsed="false" />
+        </Compartments>
+        <NestedTypes>
+          <Struct Name="SimObj::EventSet::EventNode">
+            <TypeIdentifier>
+              <NewMemberFileName>D:\Users\Mark\Downloads\DES PA5 Answer - updated (1)\DES PA5 Answer - updated\DES PA5 Answer\DES PA5 Answer\Simulation.h</NewMemberFileName>
+            </TypeIdentifier>
+          </Struct>
+        </NestedTypes>
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Users\Mark\Downloads\DES PA5 Answer - updated (1)\DES PA5 Answer - updated\DES PA5 Answer\DES PA5 Answer\Simulation.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABEAgIAAEAAAAAAAAAAAAAAAgQAAAAAACAAAAAIAAAA=</HashCode>
+      <FileName>D:\Users\Mark\Downloads\DES PA5 Answer - updated (1)\DES PA5 Answer - updated\DES PA5 Answer\DES PA5 Answer\Simulation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sink">
+    <Position X="9.5" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAIIAAAAQAgAACgAEACAAAAAQAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>D:\Users\Mark\Downloads\DES PA5 Answer - updated (1)\DES PA5 Answer - updated\DES PA5 Answer\DES PA5 Answer\Sink.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Source">
+    <Position X="4.25" Y="0.75" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Source::CreateEntityEvent">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Users\Mark\Downloads\DES PA5 Answer - updated (1)\DES PA5 Answer - updated\DES PA5 Answer\DES PA5 Answer\Source.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAgAAAAAAABAAAAAAAAAAAQAAACAAAAAAIAA=</HashCode>
+      <FileName>D:\Users\Mark\Downloads\DES PA5 Answer - updated (1)\DES PA5 Answer - updated\DES PA5 Answer\DES PA5 Answer\Source.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_interarrivalTime" />
+      <Field Name="_sssq" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SSSQ">
+    <Position X="6.75" Y="0.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="SSSQ::ArriveEvent">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Users\Mark\Downloads\DES PA5 Answer - updated (1)\DES PA5 Answer - updated\DES PA5 Answer\DES PA5 Answer\SSSQ.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="SSSQ::DepartEvent">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Users\Mark\Downloads\DES PA5 Answer - updated (1)\DES PA5 Answer - updated\DES PA5 Answer\DES PA5 Answer\SSSQ.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <InheritanceLine Type="SimObj" FixedFromPoint="true">
+      <Path>
+        <Point X="3.5" Y="7" />
+        <Point X="6.75" Y="7" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>QEQAICAAAAAAAAAAAEEAABAAAAQIAEAAAkAQAAALIAA=</HashCode>
+      <FileName>D:\Users\Mark\Downloads\DES PA5 Answer - updated (1)\DES PA5 Answer - updated\DES PA5 Answer\DES PA5 Answer\SSSQ.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_serviceTime" />
+      <Field Name="_sink" />
+    </ShowAsAssociation>
+  </Class>
+  <Typedef Name="Time" Collapsed="true">
+    <Position X="11.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Users\Mark\Downloads\DES PA5 Answer - updated (1)\DES PA5 Answer - updated\DES PA5 Answer\DES PA5 Answer\Entity.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
